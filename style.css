@@ -21,7 +21,7 @@ main> .left{
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo > img{
@@ -83,4 +83,9 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-left > img{
+  height: 65px;
+  margin-left: 20px;
 }
