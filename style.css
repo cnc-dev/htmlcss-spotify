@@ -21,17 +21,13 @@ main> .left{
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo > img{
   width: 60%;
   margin: 15px;
 }
-
-/* .icon{
-  height: 20px;
-} */
 
 .text-menu-left{
   text-decoration: none;
@@ -49,13 +45,22 @@ main > .right{
 
 .right{
   background-color: #2F5134;
+  overflow-x: scroll;
 }
 
-.navbar-right{
+.container-navbar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100px;
+  padding: 25px;
+}
+
+.row{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 25px;
+  flex-wrap: wrap;
 }
 
 .page-menu > a{
@@ -63,6 +68,13 @@ main > .right{
   color: white;
 }
 
+
+.disco{
+  margin: 10px;
+  height: 177px;
+  width: 177px;
+  background-color: greenyellow;
+}
 footer{
   background-color: #282828;
   height: 15vh;
