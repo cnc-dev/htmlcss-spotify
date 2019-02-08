@@ -73,7 +73,9 @@ main > .right{
   margin: 10px;
   height: 177px;
   width: 177px;
-  background-color: greenyellow;
+  background-image: url("cd.jpg");
+  background-position: center;
+  background-size: cover;
 }
 footer{
   background-color: #282828;
@@ -85,7 +87,39 @@ footer{
   align-items: center;
 }
 
-.footer-left > img{
+.footer-left{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-footer-left > img{
   height: 65px;
   margin-left: 20px;
+}
+
+.footer-left-text{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.simbol{
+  padding: 5px;
+}
+
+.icon4{
+  color: darkgrey;
+  display: flex;
+  align-items: center;
+}
+
+.playbar-mini{
+  width: 100px;
 }
